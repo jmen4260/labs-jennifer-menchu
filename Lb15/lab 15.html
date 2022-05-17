@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lab #15</title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="center">
+			<h1>TEXT CHANGER</h1>
+			<button type="button" onClick="textChange()" class="button-property">Change</button>
+			<button type="button" onClick="textReset()" class="button-property">Reset</button>
+			<p id="demo">Lorem Ipsum</p>
+		</div>
+	</div>
+<script>
+function textChange(){
+  document.getElementById("demo").innerHTML="Hello World!!!";
+}
+ function textReset(){
+   document.getElementById("demo").innerHTML="Lorem Ipsum"
+ } 
+ // alert("Warning This lab requires more thought !!!")
+  var mood=prompt("How are you today?")
+  alert(mood)
+  var x;
+  x=5;
+  console.log(x)
+  var y=2
+  console.log(y)
+  var z=x+y
+  console.log(z)
+  console.log("I am great and you are" +mood)
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<html>
+<head>  
+  <title>Lab10- Type of Selectors</title>
+  <style>/*the * works as a universal selector for CSS*/
+*{
+ box-sizing:border-box;
+}
+/*A CSS selects the HTML element(s) you want to style. Simple selectors (select elements based on name, id, class)
+*/
+/*any html tag can be a selector. For example*/
+body{
+ background-color:beige;
+}
+/* A pseudo-class is used to define the special state of an element. For example, It can be used to: Style an element when a user mouses over it. Style visited and unvisited links differently Style of an element when it gets focus*/
+a:link{
+ color brown;
+}
+a:visited {
+ color:white;
+ /*The class selector selects HTML elements witha specific class attribute.
+To select elements with a specific class, write period (.) .header{
+ 
+ The id of an element is unique with a page, so the id selector is used to select one unique element!
+  To select an element with a specific id, write a hash (#) character, followed by the id of the element.*/
+ #debox{
+ 
+ }
+ 
+/*The grouping selector selects all the HTML elements with the same style definitions
+ 
+Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+It will be better to group the selectors, to minimize the code. To group selectors, separate each selector with a coma.*/
+h1, h2, p{
+ 
+}
+/*CSS Combinators
+A combinator is something that explains the relationship between the selectors.
+A CSS selector can contain more than one simple selector. Between the simple selector, we can include a combinator. There are four different combinators in CSS: descendant selector (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling selector (-)*/
+</style>
+</head>
+</style>
+  </head>  
+ <body>  
+   <h1>Thomas A. Edison Highschool</h1> 
+   <h2>Web Design Acdemy</h2> 
+   <h3>10th Grade</h3>
+   <h4>Lab 10</h4>
+   <h5>2/10/22</h5> 
+   <h6>Jennifer Menchu</h6>
+   <div class="debox">
+     
+   </div>
+ </body>
+</html> 
